@@ -1,0 +1,28 @@
+.video-player-container {
+  display: flex;
+
+  direction: rtl;
+  background-color: #f9f9f9;
+}
+
+.video-Area {
+  flex: 0.8;
+  margin-top: 40px !important;
+}
+
+.video-Area {
+  margin: 5% 5% 5% 10%;
+}
+
+.videoplayer__suggested {
+  flex: 0.2;
+  margin-top: 0 !important;
+}
+
+.videoplayer__videoinfo {
+  flex-direction: row;
+}
+
+/* .videoplayer__videoinfo {
+  margin-left: 500px;
+} */

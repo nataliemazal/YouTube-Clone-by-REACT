@@ -1,0 +1,31 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+aside > nav {
+  display: flex;
+  flex-direction: column;
+}
+
+aside > nav > .nav-item {
+  margin: 15px 0;
+}
+
+aside > nav > .nav-item.active {
+  font-weight: bold;
+  color: chartreuse;
+}
+
+.sidebar {
+  flex: 0.2;
+}
+
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

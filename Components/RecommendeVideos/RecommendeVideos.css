@@ -1,0 +1,18 @@
+.video-list-container {
+  /* display: flex; */
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-list {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  padding-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.link {
+  text-decoration: none;
+}

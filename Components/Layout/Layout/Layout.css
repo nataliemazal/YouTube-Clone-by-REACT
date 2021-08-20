@@ -1,0 +1,15 @@
+/* .layout-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 15% 80% 5%;
+}
+
+.layout-container > header,
+.layout-container > footer {
+  grid-column: span 6;
+}
+
+.layout-container > main {
+  grid-column: span 5;
+} */
